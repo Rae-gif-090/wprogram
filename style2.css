@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, blue, grey);
+    background-position: center;
+    background-size: cover;
+    height: 200vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.icon {
+    height: 40px;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: underline;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: lightblue;
+}
+
+/* Content section: Adjust for flexible content */
+.content {
+    flex: 1; /* Takes up remaining space below navbar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Image: Make it responsive and float left */
+img.left-image {
+    max-width: 100%;
+    height: auto; /* Keeps the image responsive */
+    margin-right: 20px;
+    float: left;
+    width: 200px; /* Keep the image size fixed */
+}
+
+/* Heading styling */
+h1 {
+    font-size: 2.5rem; /* Relative size for better scaling */
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Adjusted for margin, padding, and border */
+h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+    margin-bottom: 10px
